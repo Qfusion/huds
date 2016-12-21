@@ -43,12 +43,15 @@ drawClock
 setSize 120 * 1.3333333333 * %VIDHEIGHT / %VIDWIDTH, 40
 touchScores
 
-// Warmup
+// MATCH STATES
+setFontFamily con_fontSystem
+setFontSize %VIDHEIGHT / 48
+setAlign 2 1
+setCursor #WIDTH / 2, 40
+setColor 0.4 1 0.4 0.5
 if %MATCH_STATE == #MATCH_STATE_WARMUP
-	setFontFamily con_fontSystem
-	setFontSize %VIDHEIGHT / 48
-	setAlign 2 1
-	setCursor #WIDTH / 2, 40
-	setColor 0.4 1 0.4 0.5
 	drawString "Warmup"
+endif
+if %OVERTIME
+	drawString "Overtime"
 endif

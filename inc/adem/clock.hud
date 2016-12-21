@@ -60,7 +60,10 @@ moveCursor +0.5, +0.5
 moveCursor 0 -30
 setFontFamily "Droid Sans"
 setFontSize %VIDHEIGHT / 42
+setColor 0.4 1 0.4 0.5
 if %MATCH_STATE == #MATCH_STATE_WARMUP && %RACE == 0
-	setColor 0.4 1 0.4 0.5
 	drawString "Warmup"
+endif
+if %OVERTIME
+	drawString "Overtime"
 endif
