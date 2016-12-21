@@ -1,3 +1,4 @@
+if %SCOREBOARD == 0 //don't show if scoreboard is shown
 if %SHOW_PICKUP
 if %PICKUP_ITEM	
 	setFontFamily "Droid Sans"
@@ -92,3 +93,4 @@ if %PICKUP_ITEM
 	setFontStyle Normal
 endif
 endif
+endif //if %SCOREBOARD == 0

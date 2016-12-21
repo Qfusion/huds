@@ -1,3 +1,4 @@
+if %SCOREBOARD == 0 //don't show if scoreboard is shown
 if %SHOW_ITEM_TIMERS
 setAlign 1 2
 setCursor 1 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 120
@@ -210,3 +211,4 @@ if %ITEM_TIMER7
 endif
 
 endif
+endif //if %SCOREBOARD == 0
