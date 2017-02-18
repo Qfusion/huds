@@ -11,7 +11,7 @@ setSize 160 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 40
 drawPicByName gfx/hud/x_timerpanel
 
 //clock numbers
-moveCursor 0 1
+moveCursor 0 2
 setFontFamily "Virtue"
 setFontSize %VIDHEIGHT / 16
 
@@ -57,7 +57,7 @@ drawClock
 moveCursor +0.5, +0.5
 
 // MATCH STATES
-moveCursor 0 -30
+moveCursor 0 -31
 setFontFamily "Droid Sans"
 setFontSize %VIDHEIGHT / 42
 setColor 0.4 1 0.4 0.5
