@@ -5,11 +5,12 @@ if %CHASING != #NOTSET
 	setFontSize %VIDHEIGHT / 30
 
 	//pro outline
-	setColor 0 0 0 1
+	setColor 0.5 0.5 0.5 1
 	drawCleanPlayerName %CHASING
 	moveCursor 0, -1
 	drawCleanPlayerName %CHASING
 	moveCursor 1, 0
+	setColor 0.1 0.1 0.1 1
 	drawCleanPlayerName %CHASING
 	moveCursor 0, 1
 	drawCleanPlayerName %CHASING
