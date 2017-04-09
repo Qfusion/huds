@@ -1,7 +1,7 @@
 if %SCOREBOARD == 0 //don't show if scoreboard is shown
 if %SHOW_ITEM_TIMERS
 setAlign 1 2
-setCursor 1 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 120
+setCursor 1 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 150
 if %ITEM_TIMER0
 	if %ITEM_TIMER0_TEAM
 		setColorToTeamColor %ITEM_TIMER0_TEAM
