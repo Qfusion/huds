@@ -6,7 +6,7 @@ setFontSize %VIDHEIGHT / 22
 setAlign #CENTER, #MIDDLE
 
 setColor 0, 0, 0, 1
-setSize 32 * 1.3333333333 * %VIDHEIGHT / %VIDWIDTH, 32
+setSize 32 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
 drawClock
 
 // change color according to item
@@ -33,7 +33,7 @@ endif
 // draws clock
 setAlign #CENTER, #MIDDLE
 moveCursor -2, -2   //colored clock position
-setSize 32 * 1.3333333333 * %VIDHEIGHT / %VIDWIDTH, 32
+setSize 32 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
 drawClock
 
 // MATCH STATES

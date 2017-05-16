@@ -2,7 +2,7 @@ if %SHOW_SPEED > 0
 if %SPEED != #NOTSET
 
 if %RACE == 0
-setSize 10 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 10
+setSize 10 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 10
 setColor 1 1 1 1
 setAlign 2 2
 setCursor #WIDTH / 2, #HEIGHT - 5
@@ -116,7 +116,7 @@ setScale #DEFAULTSCALE //resets scale
 
 if %RACE || %SHOW_SPEED == 2	//alternative speed position
     setAlign 2 2
-    setSize 16 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 16
+    setSize 16 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 16
     setColor 1 1 1 0.85
     setCursor #WIDTH / 2, #HEIGHT - 200
     drawNum %SPEED

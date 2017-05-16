@@ -1,6 +1,6 @@
 if %CHASING != #NOTSET
 	setAlign #RIGHT #BOTTOM
-	setCursor #WIDTH - 4 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, #HEIGHT + 2
+	setCursor #WIDTH - 4 * 1.333 * %VIDHEIGHT / %VIDWIDTH, #HEIGHT + 2
 	setFontFamily "Virtue"
 	setFontSize %VIDHEIGHT / 30
 

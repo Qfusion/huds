@@ -7,7 +7,7 @@ endif
 //clock bar
 setAlign 2 2
 setColor 0 0 0 0.5
-setSize 160 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 40
+setSize 160 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 40
 drawPicByName gfx/hud/x_timerpanel
 
 //clock numbers

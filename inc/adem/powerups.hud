@@ -10,9 +10,9 @@ if %POWERUP_WARSHELL_TIME != 0
 	if %POWERUP_REGEN_TIME != 0
 		moveCursor -16, 0
 	endif
-	setSize 32 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 32
+	setSize 32 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
 	drawPicByItemIndex #ITEM_WARSHELL
-	setSize 18 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 18
+	setSize 18 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 18
 	drawNum %POWERUP_WARSHELL_TIME
 endif
 
@@ -24,9 +24,9 @@ if %POWERUP_QUAD_TIME != 0
 	if %POWERUP_REGEN_TIME != 0
 		moveCursor -16, 0
 	endif
-	setSize 32 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 32
+	setSize 32 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
 	drawPicByItemIndex #ITEM_QUAD
-	setSize 18 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 18
+	setSize 18 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 18
 	drawNum %POWERUP_QUAD_TIME
 endif
 
@@ -38,9 +38,9 @@ if %POWERUP_REGEN_TIME != 0
 	if %POWERUP_QUAD_TIME != 0
 		moveCursor +16, 0
 	endif
-	setSize 32 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 32
+	setSize 32 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
 	drawPicByItemIndex #ITEM_REGEN
-	setSize 18 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 18
+	setSize 18 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 18
 	drawNum %POWERUP_REGEN_TIME
 endif
 endif
