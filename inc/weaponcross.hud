@@ -3,4 +3,3 @@ if %INSTAGIB == 0
 	setSize 52 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 50
 	drawWeaponCross 12, 15
 endif
-

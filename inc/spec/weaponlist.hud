@@ -1,5 +1,6 @@
 setCursor 0, 0
 if %TEAM != #TEAM_SPECTATOR
+	precache gfx/hud/adem/weapbox
 	if %WEAPON_ITEM
 		if %INSTAGIB == 0
 			setCustomWeaponSelect gfx/hud/adem/weapbox

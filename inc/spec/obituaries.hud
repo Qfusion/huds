@@ -10,4 +10,3 @@ if %RACE == 0
 	drawObituaries #LEFT 18
 	setFontStyle "Normal" //resets font style to default
 endif
-
