@@ -1,5 +1,5 @@
 if %INSTAGIB == 0
-	precache gfx/hud/x_timerpanel
+	precache gfx/hud/adem/weapbox
 	if %WEAPON_ITEM
 		setCustomWeaponSelect gfx/hud/adem/weapbox
 		setAlign 2 2
